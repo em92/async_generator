@@ -11,6 +11,4 @@ except ImportError:
                          extra=_impl.AsyncGenerator):
         __slots__ = ()
 
-__all__ = [
-    'AsyncGenerator'
-]
+__all__ = ['AsyncGenerator']

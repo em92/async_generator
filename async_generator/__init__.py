@@ -9,6 +9,7 @@ from ._impl import (
     set_asyncgen_hooks,
 )
 from ._util import aclosing, asynccontextmanager
+from . import typing
 
 __all__ = [
     "async_generator",
@@ -20,4 +21,5 @@ __all__ = [
     "asynccontextmanager",
     "get_asyncgen_hooks",
     "set_asyncgen_hooks",
+    "typing",
 ]
